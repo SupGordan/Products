@@ -13,7 +13,7 @@ class OrderQuery extends Query
 {
     protected $attributes = [
         'name' => 'Order Query',
-        'description' => 'A query'
+        'description' => 'A query get orders'
     ];
 
     public function type()

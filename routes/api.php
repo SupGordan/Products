@@ -14,4 +14,5 @@ use Illuminate\Http\Request;
 */
 
 
-Route::get('/create-orders', 'OrdersController@createOrder');
+Route::post('/create-order', 'OrdersController@createOrder');
+Route::post('/change-status', 'OrdersController@changeStatus');
