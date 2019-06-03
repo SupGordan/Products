@@ -11,7 +11,7 @@
 
 Два REST метода 
 
-- GET /api/create-order 
+- POST /api/create-order 
        
         Параметры:
             products        => json {product_name:quantity} с типами string:int
