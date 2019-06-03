@@ -31,3 +31,6 @@
 
 Тесты находяться в папке tests
 Команда для запуска тестов phpunit или php vendor/phpunit/phpunit/phpunit
+
+Логика REST методов в файле app/Http/Controllers/OrdersController.php
+Логика GraphQL в app/GraphQL, конфигурация в config/graphql.php
